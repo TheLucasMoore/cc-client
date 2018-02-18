@@ -138,7 +138,7 @@ class Gallery extends Component {
         {/* <ImageFilters /> */}
         {/* <ImageSearchBar /> */}
         <div className="top-wrapper">
-          <div className='copy'>Creative Credit is embedded into each image via the blockchain. No code required. Just download and share!</div>
+          <div className='copy'>CC: Creative Copy. Upload your original imagery here. Users can request to use the images and this history is written into the Ethereum Blockchain. It’s Carbon Copy for Creative Commons licensing.</div>
           <UploadBtn handleUploadClick={() => { this.setState({uploadModalOpen: true}) }} isLoggedIn={true}/>
         </div>
         <ImageGrid openImageModal={this.openImageModal} searchFilter={this.props.searchFilter} images={this.state.dummyArray} />

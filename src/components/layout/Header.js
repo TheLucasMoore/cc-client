@@ -27,7 +27,7 @@ export default ({ isLoggedIn }) => {
     console.log(isLoggedIn);
   return (
     <div className='header'>
-      <div className='logo'><Link to="/"><img alt='logo' src='/CC_Logo.png'/></Link></div>
+      <div className='logo'><Link to="/"><img alt='logo' src='/CC_Logo_small.png'/></Link></div>
       <ImageSearchBar />
       <nav className="navbar">
         { isLoggedIn

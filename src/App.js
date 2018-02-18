@@ -20,6 +20,10 @@ class App extends Component {
           </div>
         }
         <div className='main-wrapper' >{ this.props.children }</div>
+        <div className='footer'>
+          <div className='copyright'>©© 2018 Amy Jung, Lucas Moore, Will Meier</div>
+          <img className='footer-img' src='/CC_Logo.png' />
+        </div>
       </div>
     );
   }
